@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P J | Software & AI Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      position: sticky;
+      top: 0;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(10px);
+    }
+    nav h2 { font-weight: 800; }
+    nav a {
+      color: #94a3b8;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #38bdf8; }
+    header {
+      text-align: center;
+      padding: 120px 20px 80px;
+    }
+    header h1 {
+      font-size: 56px;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 20px;
+      color: #94a3b8;
+      margin-top: 15px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      border-radius: 50px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover { transform: scale(1.05); }
+    section {
+      padding: 80px 10%;
+    }
+    h3.section-title {
+      font-size: 32px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 16px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      padding: 8px 16px;
+      margin: 6px;
+      border-radius: 50px;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #334155;
+      color: #64748b;
+    }
+    .contact a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>P J</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Software & AI Engineer in Progress</h1>
+  <p>Computer Science Student (3.74 GPA) | Army National Guard 25B IT Specialist</p>
+  <a href="#projects" class="btn">View My Work</a>
+</header>
+
+<section id="about">
+  <h3 class="section-title">About Me</h3>
+  <p style="max-width:800px;margin:auto;text-align:center;color:#94a3b8;">
+    I am a Computer Science student at Georgia State University passionate about building scalable
+    software systems and intelligent AI solutions. With hands-on IT experience supporting 100+ users
+    in the Army National Guard, I bring discipline, leadership, and real-world technical problem-solving
+    into software engineering.
+  </p>
+</section>
+
+<section id="projects">
+  <h3 class="section-title">Projects</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>System Monitoring & Automation Tool</h4>
+      <p>Python-based system to monitor performance metrics and log anomalies with modular design.</p>
+    </div>
+    <div class="card">
+      <h4>Interactive Python Game</h4>
+      <p>Built structured game logic with user input handling, state management, and debugging optimization.</p>
+    </div>
+    <div class="card">
+      <h4>Network & IT Support Operations</h4>
+      <p>Managed secure systems, user access control, and network troubleshooting for 100+ users.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h3 class="section-title">Technical Skills</h3>
+  <div class="skills" style="text-align:center;">
+    <span>Python</span>
+    <span>Java</span>
+    <span>C++</span>
+    <span>SQL</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>Linux</span>
+    <span>Data Structures</span>
+    <span>Object-Oriented Programming</span>
+  </div>
+</section>
+
+<section id="contact" style="text-align:center;">
+  <h3 class="section-title">Contact</h3>
+  <div class="contact">
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a href="mailto:phaithnash40@gmail.com">Email</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 P J | Built with HTML & CSS
+</footer>
+
+</body>
+</html>
